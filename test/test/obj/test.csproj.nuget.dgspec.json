@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\test\\test\\test\\test.csproj": {}
+    "C:\\Users\\user\\Desktop\\卒業研究\\sotuken\\test\\test\\test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\test\\test\\test\\test.csproj": {
+    "C:\\Users\\user\\Desktop\\卒業研究\\sotuken\\test\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\test\\test\\test\\test.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\卒業研究\\sotuken\\test\\test\\test.csproj",
         "projectName": "test",
-        "projectPath": "C:\\Users\\user\\Desktop\\test\\test\\test\\test.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\卒業研究\\sotuken\\test\\test\\test.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\test\\test\\test\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\卒業研究\\sotuken\\test\\test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -40,18 +41,26 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
